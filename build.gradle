@@ -28,8 +28,8 @@ repositories {
 ext['springCloudVersion'] = 'Greenwich.RC1'
 
 dependencies {
-	compile 'org.springframework.cloud:spring-cloud-starter-openfeign'
-	compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
+	implementation 'org.springframework.cloud:spring-cloud-starter'
+	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 	compile 'org.springframework.cloud:spring-cloud-starter-openfeign'
 	compile 'io.github.openfeign:feign-okhttp:10.1.0'
 
